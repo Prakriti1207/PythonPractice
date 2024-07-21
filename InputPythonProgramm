@@ -1,0 +1,15 @@
+# String input
+name = input("Enter your name:")
+print("Hello," + name + "!")
+# Integer input
+age = int(input("Enter your age "))
+print("I am " + str(age) + "years old")
+# Float input
+height = float(input("Enter your height:"))
+print("My height " + str(height) + "ft.")
+# Multiple input
+num1, num2 = map(int,input("Enter two number after space :").split())
+print("Sum -",num1 + num2)
+# Multiple inputs for string in pyhton
+inputs = input("Enter multiple strings after space ").split()
+print("Entered strings ", inputs)
